@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zadaca:Buttons</title>
+  </head>
+
+  <style>
+    #addButtons {
+      margin: 0;
+      position: relative;
+      left: 42%;
+    }
+
+    #subButtons {
+      margin: 0;
+      position: relative;
+      top: 15px;
+      left: 42%;
+    }
+
+    button {
+      width: 35px;
+      height: 35px;
+    }
+  </style>
+
+  <title>Zadaca:Buttons</title>
+
+  <body>
+    <header>
+      <h3>Result: <span id="result">0</span></h3>
+    </header>
+
+    <section>
+      <div id="addButtons">
+        <button type="button" id="btn-add1">+1</button>
+        <button type="button" id="btn-add5">+5</button>
+        <button type="button" id="btn-add10">+10</button>
+      </div>
+      <div id="subButtons">
+        <button type="button" id="btn-sub1">-1</button>
+        <button type="button" id="btn-sub5">-5</button>
+        <button type="button" id="btn-sub10">-10</button>
+      </div>
+    </section>
+
+    <script src="scripts\vendor.js"></script>
+    <script src="scripts\app.js"></script>
+  </body>
+</html>
