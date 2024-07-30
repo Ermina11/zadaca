@@ -6,5 +6,5 @@ btnExchange.addEventListener("click", exchange);
 
 function exchange() {
   let text = userInput.value;
-  heading.innerText = text;
+  btnExchange.innerText = text;
 }
