@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kako se osjecas?</title>
+</head>
+
+<style>
+    .buttons{
+        display:flex;
+        justify-content: center;
+    }
+
+    .image{
+        display:flex;
+        justify-content: center;
+        margin-left: 25%;
+        margin-right: 25%;
+        border:2px solid rgb(90, 175, 178)
+        
+    }
+
+    .emotions{
+        padding: 20px;
+        border-radius: 10px;
+        background-color: rgb(90, 175, 178);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: rgb(255, 255, 255);
+        border-color: rgb(90, 175, 178);
+        margin: 5px;
+    }
+
+    .buttons{
+
+        width: 630px;
+        margin-left:auto;
+        margin-right:auto;
+        display: flex;
+        justify-content: space-between;
+    }
+</style>
+
+<body>
+    <h1 style="text-align:center; color:rgb(90, 175, 178)">Kako se osjecas danas?</h1>
+
+    <div class="image">
+        <img  style="max-width:630px; height:500px" id = "mood" src="./media/all_moods.png" alt="icon">
+        <br>
+    </div>
+    <br>
+
+    <div class="buttons">
+        <button class="emotions" type="button" onclick="document.getElementById('mood').src='./media/happy.jpg'">SRETAN</button>
+        <button class="emotions"  type="button" onclick="document.getElementById('mood').src='./media/angry.jpg'">LJUT</button>
+        <button class="emotions"  type="button"  onclick="document.getElementById('mood').src='./media/sad.jpg'">TUŽAN</button>
+        <button class="emotions"  type="button"  onclick="document.getElementById('mood').src='./media/frustrated.jpg'">NERVOZAN</button>
+        <button class="emotions"  type="button"  onclick="document.getElementById('mood').src='./media/suprised.jpg'">ŠOKIRAN</button>
+    </div>
+
+</body>
+</html>
