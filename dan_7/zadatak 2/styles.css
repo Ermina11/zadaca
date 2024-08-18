@@ -1,0 +1,56 @@
+h1 {
+  text-align: center;
+  border: 1px solid rgb(173, 173, 173);
+  margin-left: 28%;
+  margin-right: 28%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+}
+
+body {
+  background-color: bisque;
+  
+}
+
+.containter {
+  display: block;
+  flex-direction: column;
+  margin-left: 28%;
+  margin-right: 28%;
+  justify-items: center;
+  background-color: rgba(255, 255, 255, 0.141)
+ 
+}
+
+.imageYoung {
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  height: 200px;
+  max-width: 200px;
+  padding-top: 20px;
+}
+
+.buttons {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: "Helvetica";
+  font-size: 14px;
+  padding: 8px;
+  background-color: bisque;
+  border-radius: 5px;
+  border-color: bisque;
+}
+
+.descriptionText {
+  display: flex;
+  flex-direction: column;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: 2px solid rgb(173, 173, 173);
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+}
